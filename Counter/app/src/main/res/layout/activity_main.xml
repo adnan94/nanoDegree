@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#990099"
+    tools:context="com.example.adnan.counter.MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_margin="30dp"
+        android:text="Team A"
+
+        android:textColor="#fff701"
+        android:textSize="20dp" />
+
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Team B"
+        android:textColor="#29f900"
+        android:textSize="20dp"
+        android:layout_marginRight="37dp"
+        android:layout_alignTop="@+id/textView"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="37dp" />
+
+    <TextView
+        android:id="@+id/scoreA"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#fff701"
+        android:textSize="60dp"
+        android:layout_below="@+id/textView"
+        android:layout_alignLeft="@+id/textView"
+        android:layout_alignStart="@+id/textView"
+        android:layout_alignRight="@+id/textView"
+        android:layout_alignEnd="@+id/textView" />
+
+    <TextView
+        android:id="@+id/scoreB"
+        android:layout_width="wrap_content"
+
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#29f900"
+        android:textSize="60dp"
+        android:layout_alignTop="@+id/scoreA"
+        android:layout_alignLeft="@+id/textView2"
+        android:layout_alignStart="@+id/textView2"
+        android:layout_alignRight="@+id/textView2"
+        android:layout_alignEnd="@+id/textView2" />
+
+    <Button
+        android:id="@+id/addThreeA"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/scoreA"
+        android:layout_alignStart="@+id/scoreA"
+        android:layout_alignTop="@+id/addThreeB"
+        android:background="#fff701"
+        android:text="+ 3" />
+
+    <Button
+        android:id="@+id/addThreeB"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="100dp"
+        android:background="#29f900"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/scoreB"
+        android:layout_alignRight="@+id/scoreB"
+        android:layout_centerVertical="true"
+        android:text="+ 3" />
+
+    <Button
+        android:id="@+id/addFiveA"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/addThreeA"
+        android:layout_alignStart="@+id/addThreeA"
+        android:layout_below="@+id/addThreeA"
+        android:layout_marginTop="10dp"
+        android:background="#fff701"
+        android:text="+ 5" />
+
+    <Button
+        android:id="@+id/addFiveB"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/addThreeB"
+        android:layout_alignStart="@+id/addThreeB"
+        android:background="#29f900"
+android:layout_marginTop="10dp"
+        android:layout_below="@+id/addThreeB"
+        android:text="+ 5" />
+
+    <Button
+        android:id="@+id/addOneA"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:background="#fff701"
+        android:text="Add 1"
+        android:layout_alignTop="@+id/add1B"
+        android:layout_alignLeft="@+id/addFiveA"
+        android:layout_alignStart="@+id/addFiveA" />
+
+    <Button
+        android:id="@+id/add1B"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/addFiveB"
+        android:layout_alignRight="@+id/addFiveB"
+        android:background="#29f900"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/addFiveB"
+        android:text="Add 1"
+
+        />
+
+    <Button
+        android:id="@+id/resetA"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/addOneA"
+        android:layout_alignStart="@+id/addOneA"
+        android:layout_below="@+id/addOneA"
+        android:layout_marginTop="5dp"
+        android:background="#f10004"
+        android:text="Reset" />
+
+    <Button
+        android:id="@+id/resetB"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:background="#f10004"
+        android:text="Reset"
+        android:layout_alignTop="@+id/resetA"
+        android:layout_alignRight="@+id/scoreB"
+        android:layout_alignEnd="@+id/scoreB" />
+</RelativeLayout>

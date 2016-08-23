@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="99dp"
+        android:layout_height="99dp"
+        android:background="#d9d9d9"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp" />
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:text="Adnan Ahmed"
+        android:textColor="#0029f9"
+        android:textSize="20dp"
+        android:layout_above="@+id/grade"
+        android:layout_toRightOf="@+id/imageView"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:id="@+id/grade"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Grade: A+"
+        android:textColor="#0029f9"
+        android:textSize="20dp"
+        android:layout_above="@+id/rank"
+        android:layout_alignLeft="@+id/name"
+        android:layout_alignStart="@+id/name"
+        android:layout_alignRight="@+id/name"
+        android:layout_alignEnd="@+id/name" />
+
+    <TextView
+        android:id="@+id/rank"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Rank : 6"
+        android:textColor="#0029f9"
+        android:textSize="20dp"
+        android:layout_above="@+id/attendence"
+        android:layout_alignLeft="@+id/grade"
+        android:layout_alignStart="@+id/grade"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:id="@+id/attendence"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Present"
+        android:textColor="#f90019"
+        android:textSize="20dp"
+        android:layout_alignBottom="@+id/imageView"
+        android:layout_alignLeft="@+id/rank"
+        android:layout_alignStart="@+id/rank" />
+
+</RelativeLayout>

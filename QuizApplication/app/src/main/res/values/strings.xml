@@ -1,0 +1,80 @@
+<resources>
+    <string name="app_name">QuizApplication</string>
+    <string-array name="questions">
+        <item>What is HTML stands for ?</item>
+        <item>What does mark up means ?</item>
+        <item>What tag is use for largest heading ?</item>
+        <item>What many heading tags in HTML ?</item>
+        <item>What corrent tag for link pages ?</item>
+        <item>What is sementic markups use for ?</item>
+        <item>What tag use for bold ?</item>
+        <item>What tag is use for italic ?</item>
+        <item>What tag is use for text color ?</item>
+        <item>What extension for html file ?</item>
+    </string-array>
+    <string-array name="answers">
+        <item>Hyper Text Mark Up Language</item>
+        <item>Tags</item>
+        <item>H1</item>
+        <item>6</item>
+        <item>a href="https://www.google.com"</item>
+        <item>a and b</item>
+        <item>b or strong</item>
+        <item>i or emphasis</item>
+        <item>color</item>
+        <item>abc.html</item>
+    </string-array>
+    <string-array name="options">
+        <item>Hyper Tap Mark Up Language</item>
+        <item>Hyper Text Mark Up Language</item>
+        <item>Hyper Text Mark Up Location</item>
+        <item>Hyper Technical Mark Up Language</item>
+
+        <item>Music</item>
+        <item>Links</item>
+        <item>Tags</item>
+        <item>Programs</item>
+
+        <item>H2</item>
+        <item>H1</item>
+        <item>H6</item>
+        <item>H3</item>
+
+        <item>4</item>
+        <item>5</item>
+        <item>7</item>
+        <item>6</item>
+
+        <item>a href="https://www.google.com"</item>
+        <item>img href="https://www.google.com"</item>
+        <item>a src="https://www.google.com"</item>
+        <item>a href:"https://www.google.com"</item>
+
+        <item>Search Engines</item>
+        <item>Screen Readers</item>
+        <item>a and b</item>
+        <item>Visitors</item>
+
+        <item>b or strong</item>
+        <item>abbr</item>
+        <item>def</item>
+        <item>p</item>
+
+        <item>b</item>
+        <item>table</item>
+        <item>i or emphasis</item>
+        <item>form</item>
+
+        <item>color-font</item>
+        <item>color-text</item>
+        <item>bg-color</item>
+        <item>color</item>
+
+        <item>abc.h</item>
+        <item>abc.ht</item>
+        <item>abc.html</item>
+        <item>abc.htl</item>
+
+
+    </string-array>
+</resources>
